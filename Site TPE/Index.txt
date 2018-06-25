@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Accueil</title>
+	<link rel="stylesheet" href="feuilleStyle.css">
+	<link rel="icon" type="image/x-icon" href="Favicons/trojan.ico" />
+</head>

@@ -1,0 +1,15 @@
+@font-face {
+font-family: Quotus; 
+src: url("Fonts/Quotus-Thin.ttf.ttf");
+font-weight: normal; 
+}
+#P-23
+{
+	font-style: italic;
+	font-size : 17px;
+}
+#h2_45
+{
+	color: blue;
+	font-family: Quotus; 
+}

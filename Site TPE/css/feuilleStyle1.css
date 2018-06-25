@@ -1,0 +1,40 @@
+#a_9{
+	font-size: 18px;
+	font-weight: bold;
+}
+@font-face {
+font-family: CaviarDreams; 
+src: url("Fonts/CaviarDreams.ttf");
+font-weight: normal; 
+}
+#h1_Q
+{
+	font-family: CaviarDreams;
+	font-size: 38px;
+}
+#a_v {
+	font-weight: bold;
+}
+#H1_bo {
+	color : #6F84EA;
+	font-size: 28px;
+}
+#a_link_without {
+	color : black;
+}
+#B2 {
+	font-weight: bold;
+}
+#P_R {
+	font-weight : bold;
+}
+/* Orientation Portrait */
+@media screen and (orientation:portrait) {
+    /* Styles à adapter pour le mode portrait */
+}
+/* Orientation Paysage */
+@media screen and (orientation:landscape) {
+    /* Styles à adapter pour le mode paysage */
+}
+@media screen and (device-aspect-ratio: 16/9) { … }
+@media screen and (device-aspect-ratio: 1280/720) { … }

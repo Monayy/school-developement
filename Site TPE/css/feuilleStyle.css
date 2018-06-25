@@ -1,0 +1,85 @@
+html {
+background:url(Images/background.jpg) center top;
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-ms-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+}
+@font-face {
+font-family: CaviarDreams; 
+src: url("Fonts/CaviarDreams.ttf");
+font-weight: normal; 
+}
+#a
+{
+	font-size: 16px;
+}
+#a_R
+{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #008B8B;
+}
+#a_5_2
+{
+	text-decoration: underline;
+	font-weight: bold;	
+}
+#h1_A2
+{
+	color:green;
+	font-size: 34px;
+}
+#h1_I
+{
+	text-decoration: underline;
+	color:black;
+}
+#h1_2{
+	color:blue;
+}
+#a_2{
+	font-weight: bold;
+}
+#h1_4{
+	font-family: Comic Sans MS ;
+	color:brown;
+}
+#h1_S{
+	font-family: Comic Sans MS ;
+	text-decoration: underline;
+}
+#h1_Q
+{
+	font-family: CaviarDreams;
+	font-size: 38px;
+}
+#h1_A
+{
+	color : blue;
+	font-size : 28px;
+}
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type:none;
+	background-color:#424242;
+}
+nav li{
+	display:inline-block;
+	width: 180px;
+	height:40px;
+	margin:0px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 40px;
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	color:white;
+}
+body {
+    min-width: 1000px;
+}

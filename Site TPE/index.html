@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="Site TPE" content="Modelisation des transferts" />
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>	
+	<title>Accueil</title>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4674145144466249",
+          enable_page_level_ads: true
+     });
+</script>
+	<link rel="stylesheet" href="css/feuilleStyle.css">
+	<link rel="stylesheet" href="css/feuilleStyle1.css">
+	<link rel="icon" type="image/x-icon" href="Favicons/terre.ico" />		
+	<SCRIPT LANGUAGE="JavaScript">
+function HeureCheckEJS()
+	{
+	krucial = new Date;
+	heure = krucial.getHours();
+	min = krucial.getMinutes();
+	sec = krucial.getSeconds();
+	jour = krucial.getDate();
+	mois = krucial.getMonth()+1;
+	annee = krucial.getFullYear();
+	if (sec < 10)
+		sec0 = "0";
+	else
+		sec0 = "";
+	if (min < 10)
+		min0 = "0";
+	else
+		min0 = "";
+	if (heure < 10)
+		heure0 = "0";
+	else
+		heure0 = "";
+	DinaHeure = heure0 + heure + ":" + min0 + min + ":" + sec0 + sec;
+	which = DinaHeure
+	if (document.getElementById){
+		document.getElementById("ejs_heure").innerHTML=which;
+	}
+	setTimeout("HeureCheckEJS()", 1000)
+	}
+window.onload = HeureCheckEJS;
+</SCRIPT>
+</head>
+<body>
+	<header>
+		<a id="a_link_without" href="index.html"><h1 id="h1_Q" align=CENTER> TPE : Modélisation des transferts </h1></a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="Pages/Page1.html">Réseaux informatiques</a></li>
+				<li><a href="Pages/Page4.html">Internet</a></li>
+				<li><a href="Pages/Page5.html">Intérêts des réseaux</a></li>
+				<li><a href="Pages/Page2.html">Autres réseaux</a></li>
+				<li><a href="Pages/Page3.html">F.A.Q</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1 id="h1_A2">Le transfert d'informations au sein d'un réseau est-il toujours optimal ?</h1>
+		<img align="right" width="42%" src="Images/réseauxpng.png" alt="schéma de réseau de bus" />	
+		<br>
+		<h1 id="h1_A">Tout d'abord, qu'est ce qu'un transfert ?</h1>
+		<a id="a"> Un transfert est un échange, un déplacement, par exemple d'un objet, une personne, une information etc ... 
+		Il peut se faire de différentes manières (physique ou virtuel) propres à chaque réseau.<br> Par exemple, sur Internet, le transfert se fait par "paquets",
+		d'octets, et dans un réseau routier, le transfert se fait matériellement.</a>
+		<br><br>
+		<h1 id="h1_A"> Qu'est ce qu'un réseau ? </h1>
+		<a id="a"> Un réseau désigne au sens concret « un ensemble de lignes entrelacées » et, au figuré « un ensemble de relations ». </a></br>
+		<a id="a"> Il peut être matériel (réseau électrique, routier...) ou immatériel (réseaux sociaux ). </a>
+		<h1 id="h1_A">Intérêt des réseaux :</h1>
+		<p>Les réseaux sont tous différents et possèdent tous des avantages et des inconvénients. Cliquez <a href="../Pages/Page5.html">ici</a></p>
+		<br><br>
+		<h2>Nous allons consacrer ce site aux différents types de réseaux et à Internet</h2>
+	</section>
+	<br><br><br><br>
+	<footer>
+		<center>
+		<h3>Certaines parties du site, ne seront révélées qu'à partir de la présentation orale</h3>
+			<a><i>Projet réalisé par Pierre Barth, Samuel Bruguière et Gabriel Knies.</a></i>
+           	<br><br> 
+           	<a id="a_sources" href="Sources.txt" download="Sources.txt" >Sources </a>
+        </center>
+		<div id="ejs_heure" align=right>Initialisation</div>
+	</footer>
+</body>
+</html>
