@@ -1,2 +1,2 @@
 # school-developement
-project i've done at school, or project for school ..
+projects i've done at school, or project for school ..
