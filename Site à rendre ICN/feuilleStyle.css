@@ -1,0 +1,102 @@
+#h1_Q
+{
+	color : red;
+	background-color: black;
+}
+h2
+{
+	color : red;
+	background-color: yellow;
+	font-size: 30px;
+}
+#h1_S
+{
+	font-size:2vw;
+}
+#p_1
+{
+	font-style: italic;
+	color: white;
+	font-size: 18px;
+}
+#p_2
+{
+	color: white;
+	font-size: 18px;
+}
+#p_3
+{
+	color: white;
+	font-size: 18px;
+}
+#h3_1
+{
+	color: red;
+	font-size: 23px;
+}
+#h3_2
+{
+	color: red;
+	font-size: 23px;
+}
+#h3_3
+{
+	color: red;
+	font-size: 23px;
+}
+#a_1
+{
+	color: yellow; 
+}
+#a_2
+{
+	color: yellow; 
+}
+#a_3
+{
+	color: yellow; 
+}
+#a_4
+{
+	color: yellow;
+}
+#a_end
+{
+	color: orange;
+}
+#a_s1
+{
+	color : orange;
+	font-size: 19px;
+}
+#a_s2
+{
+	color : orange;
+	font-size: 19px;
+}
+#a_s3
+{
+	color : orange;
+	font-size: 19px;
+}
+#a_sources
+{
+	color : orange;
+}
+#a_link
+{
+	color : lightblue;
+	font-size: 20px;
+}
+#a_link_2
+{
+	font-size: 20px;
+}
+body
+{
+	 background-attachment: fixed;
+}
+#a_link_without
+{
+	text-decoration: none;
+}
